@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #e6e6e6;
+  
+}
+/*Layout*/
+#area-cabeçalho{
+
+    background-color: #262217;
+    padding: 20px;
+    text-align: left ;
+}
+
+#area-logo, #area-menu{ 
+    padding: 10px;
+    text-align: right;
+}
+#area-principal{
+    position: absolute; 
+    left: 90px;
+    top: 70px;
+    width: 920;
+    margin: 0 auto;
+    padding: 15px;
+}
+#area-postagem{
+    width: 660px;
+    float: left;
+}
+#area-lateral{
+    position: relative; 
+    right: 0px;
+    top: 0px; 
+    float: right;
+}
+
+#visita{
+    background: #cdc8b1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
+  }
+
+.fundo{
+    position: absolute;
+}
+.imagem{
+    position: absolute;
+    left: 19px;
+    
+}
+
+#exposicoes {
+    float: left;
+    width: 310px;
+    margin: 15px 0 0 25px;
+}
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: #e6e6e6e6;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: #e6e6e6e6;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+#area-cabecalho a:link, #area-cabecalho a:visited{
+    padding: 8px 12px;
+}
+#area-cabecalho a:hover{
+    text-decoration: none;
+    
+}
+
+.direita{
+    margin-right: 5px;
+}
